@@ -16,8 +16,9 @@
 
 .catFacts li {
    background-color: rgba(160, 81, 45, 0.603);
+   font-weight: 500;
    border: 1px solid #eee;
-   border-radius: 5px;
+   border-radius: 0.5rem;
    padding: 0.5rem 1rem;
    margin-bottom: 0.5rem;
 }

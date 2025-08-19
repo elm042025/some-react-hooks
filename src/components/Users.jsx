@@ -2,8 +2,8 @@ import { mockData } from "../data/mockData.js";
 import { useState } from "react";
 import styles from "./Users.module.css";
 
-//! part 1 maps over user in mockData, displaying their username and email
-//! part 2 adds a form to add new users, updating the state with the new user
+//! part 1 maps over users in mockData, displaying their username and email
+//! part 2 adds a form to add new users, updating mockData with the new users
 
 export function Users() {
    const [users, setUsers] = useState(mockData);

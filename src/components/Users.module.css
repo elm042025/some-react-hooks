@@ -41,18 +41,38 @@
    border: 1px solid #ccc;
    border-radius: 0.5rem;
 }
+.addUser form input:focus:valid {
+   outline: none;
+   border-color: rgba(50, 205, 50, 0.85);
+   box-shadow: 0 0 5px rgba(50, 205, 50, 0.5);
+}
+.addUser form input:focus:invalid {
+   outline: none;
+   border-color: rgba(255, 0, 0, 0.85);
+   box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
 .addUser form button {
-   padding: 0.5rem 1rem;
-   background-color: #4caf50;
-   color: white;
-   border: 1px solid #090909;
+   padding: 0.5rem 2rem;
+   background-color: rgba(50, 205, 50, 0.85);
+   color: #333;
    border-radius: 0.5rem;
+   border: none;
    cursor: pointer;
    width: max-content;
    align-self: center;
    font-size: 1rem;
    font-weight: 400;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+   transition: all 0.3s ease;
 }
+.addUser form button:hover {
+   background-color: rgba(50, 205, 50, 0.7);
+}
+.addUser form button:active {
+   background-color: rgba(50, 205, 50, 0.85);
+   box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
 .error {
    color: red;
    font-weight: bold;
@@ -76,5 +96,8 @@
       width: 100%;
       margin-top: 0;
       gap: 0.5rem;
+   }
+   .addUser button {
+      margin: 1rem auto;
    }
 }
