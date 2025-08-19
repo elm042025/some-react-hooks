@@ -58,7 +58,7 @@ export function Users() {
                   <label htmlFor="username">Username:</label>
                   <input
                      type="text"
-                     placeholder="Username"
+                     placeholder="Eksempel: Albert Einstein "
                      value={newUser.username}
                      required
                      onChange={(e) => setNewUser({ ...newUser, username: e.target.value })}
@@ -66,7 +66,7 @@ export function Users() {
                   <label htmlFor="email">Email:</label>
                   <input
                      type="email"
-                     placeholder="Email"
+                     placeholder="Eksempel: albert.einstein@relativity.com"
                      value={newUser.email}
                      required
                      onChange={(e) => setNewUser({ ...newUser, email: e.target.value })}
