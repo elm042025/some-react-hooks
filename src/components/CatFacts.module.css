@@ -1,0 +1,28 @@
+.catFacts h2 {
+   font-size: 2rem;
+   font-weight: 500;
+   margin: 1rem auto;
+   color: #333;
+   text-align: center;
+}
+
+.catFacts ul {
+   list-style: none;
+   padding: 0;
+}
+
+.catFacts li {
+   background-color: rgba(160, 81, 45, 0.603);
+   border: 1px solid #eee;
+   border-radius: 5px;
+   padding: 0.5rem 1rem;
+   margin-bottom: 0.5rem;
+}
+
+.catFacts .error {
+   color: red;
+   font-weight: bold;
+}
+.catFacts hr {
+   margin: 2rem 0;
+}
