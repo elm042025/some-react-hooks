@@ -36,7 +36,6 @@ export function CatFacts() {
                ))}
             </ul>
          )}
-         <hr />
       </section>
    );
 }

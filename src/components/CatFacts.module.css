@@ -1,7 +1,10 @@
+.catFacts {
+   margin: 1rem 0 2rem 0;
+}
 .catFacts h2 {
    font-size: 2rem;
    font-weight: 500;
-   margin: 1rem auto;
+   margin: 0rem auto 1rem auto;
    color: #333;
    text-align: center;
 }
@@ -22,7 +25,4 @@
 .catFacts .error {
    color: red;
    font-weight: bold;
-}
-.catFacts hr {
-   margin: 2rem 0;
 }

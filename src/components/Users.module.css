@@ -1,0 +1,62 @@
+.usersList h2 {
+   text-align: center;
+   margin: 1rem auto;
+   font-size: 2rem;
+   font-weight: 500;
+}
+.user {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
+   border-bottom: 1px solid #cbc7c7;
+}
+.user h3 {
+   text-transform: capitalize;
+}
+.users h4 {
+   text-align: center;
+   margin: 2rem auto;
+   font-size: 1.5rem;
+   font-weight: 500;
+}
+.addUser fieldset {
+   border: 1px solid #ccc;
+   border-radius: 0.5rem;
+   padding: 1rem;
+   margin: 1rem;
+}
+
+.addUser form {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   margin-top: 1rem;
+   width: 100%;
+   padding: 1rem;
+}
+.addUser form input {
+   flex: 1;
+   padding: 0.5rem;
+   border: 1px solid #ccc;
+   border-radius: 0.5rem;
+}
+.addUser form button {
+   padding: 0.5rem 1rem;
+   background-color: #4caf50;
+   color: white;
+   border: 1px solid #090909;
+   border-radius: 0.5rem;
+   cursor: pointer;
+   width: max-content;
+   align-self: center;
+   font-size: 1rem;
+   font-weight: 400;
+}
+.error {
+   color: red;
+   font-weight: bold;
+   margin: 1rem auto;
+   text-align: center;
+   width: 100%;
+}
