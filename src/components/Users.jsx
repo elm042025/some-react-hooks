@@ -58,6 +58,7 @@ export function Users() {
                   <label htmlFor="username">Username:</label>
                   <input
                      type="text"
+                     id="username"
                      placeholder="Eksempel: Albert Einstein "
                      value={newUser.username}
                      required
@@ -66,6 +67,7 @@ export function Users() {
                   <label htmlFor="email">Email:</label>
                   <input
                      type="email"
+                     id="email"
                      placeholder="Eksempel: albert.einstein@relativity.com"
                      value={newUser.email}
                      required
